@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 
-public class GoogleSearchResultService extends ActionManager {
+public class
+GoogleSearchResultService extends ActionManager {
 
     private static WebElement stats() {
         return getElement(GoogleConstants.STATS_ID);
