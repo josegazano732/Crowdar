@@ -10,10 +10,10 @@ Feature: As a potential client i need to search in google to find a web site
 
     Examples:
       |word|
-      |Juan Manuel Gazano|
-      |Cristina Elizabeth Gazano|
-      |Hugo fabian Gazano|
-      |Testing|
+      |Juan Manuel Gazano |
+      |Previsora del Parana|
+      |Hugo fabian Gazano |
+      |Testing |
 
 
 
