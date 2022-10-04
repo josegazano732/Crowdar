@@ -10,7 +10,7 @@ Feature: As a potential client i need to search in google to find a web site
 
     Examples:
       |word|
-      |Juan Manuel Gazano|
+      |Crowdar|
       |Cristina Elizabeth Gazano|
       |Hugo fabian Gazano|
       |Testing|
