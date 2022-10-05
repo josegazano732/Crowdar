@@ -1,16 +1,16 @@
 package lippia.web.services;
 
 import com.crowdar.core.actions.ActionManager;
-import lippia.web.constants.GoogleConstants;
+import lippia.web.constants.RegistroConstants;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 
 public class
-GoogleSearchResultService extends ActionManager {
+RegistroResultService extends ActionManager {
 
     private static WebElement stats() {
-        return getElement(GoogleConstants.STATS_ID);
+        return getElement(RegistroConstants.STATS_ID);
     }
 
     public static String getStats() {
