@@ -10,13 +10,24 @@ public class RegistroUsuarioService extends ActionManager {
 
     public static void navegarWeb(){
         navigateTo(PropertyManager.getProperty("web.base.url"));
+
     }
 
-    public static void enterSearchCriteria(String text) {
-        setInput(RegistroConstants.INPUT_SEARCH_XPATH, text);
+    public static void clickMiCuenta() {
+        click(RegistroConstants.CLICK_MI_CUENTA);
+    }
+
+    public static void enterEmailCriteria(String text) {
+        setInput(RegistroConstants.INPUT_EMAIL_ID, text);
+    }
+
+    public  static void enterPassworCriteria(String text) {
+        setInput(RegistroConstants.INPUT_PASSWORD_ID, text);
     }
 
     public static void clickSearchButton() {
-        click(RegistroConstants.SEARCH_BUTTON_NAME);
+        click(RegistroConstants.BUTTON_NAME);
     }
+
+
 }
